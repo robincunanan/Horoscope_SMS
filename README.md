@@ -6,7 +6,7 @@ This Python Program will create a bot that can receive and send SMS (short messa
 
 These instructions will setup Flask to connect the code to the local host, which will later be connected to the internet through Ngrok. The Twilio service number sends the POST request so when the message is sent over SMS to our Twilio number, this code will run. Then when the Twilio number receives a SMS from the user the code will use the BeautifulSoup module to web scrap the astrological sign's daily horoscope from Horoscope.com and return a SMS back to the user.
 
-### Prerequisites
+## Prerequisites
 
 Horoscope SMS requires Python 3.5.3+ to run, with the following libraries: flask, twilio.twiml.messaging_response, bs4, requests, and re.
 
